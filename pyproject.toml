@@ -1,0 +1,15 @@
+[project]
+name = "betagent"
+version = "0.1.0"
+description = "Binary Expansion Test (BET) Analysis with AI-Powered Causal Interpretation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "pandas>=2.3.3",
+    "yfinance>=0.2.32",
+    "numpy>=1.24.0",
+    "google-genai>=0.1.0",
+    "openpyxl>=3.10.0",
+    "pyarrow>=14.0.0",
+]

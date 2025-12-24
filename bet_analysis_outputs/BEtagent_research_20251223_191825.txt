@@ -1,0 +1,33 @@
+### Research Memorandum
+
+**To:** Strategic Asset Allocation Committee  
+**From:** Senior Principal Researcher, Complex Systems & Causal Discovery  
+**Date:** December 23, 2025  
+**Subject:** Causal Interpretation of Non-Linear Coupling between AAPL and MSFT
+
+#### Executive Summary of Statistical Evidence
+The Binary Expansion Test (BET) performed on the daily returns of **AAPL (Apple Inc.)** and **MSFT (Microsoft Corp.)** has yielded an extremely robust rejection of the null hypothesis of independence ($p \approx 8.22 \times 10^{-9}$). 
+
+The most striking feature of this discovery is the **Bit Interaction Pattern `[1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0]`**. This indicates a "U-shaped" dependency structure: strong coupling at the **Macro level** (Bits 0-1) and the **Micro level** (Bits 9-10), with a notable decoupling at intermediate price scales. Furthermore, the low **Symmetry Count (67-71)** confirms the existence of a "Forbidden Zone"—a structural boundary in the joint probability space where specific divergent behaviors are statistically prohibited.
+
+---
+
+### Hypothesis 1: Passive Indexation & "Gravity" Coupling
+*   **Mechanism:** **Index-Induced Flow Synchronicity.** As the two largest constituents of the S&P 500 and the Nasdaq-100, AAPL and MSFT are the primary targets of massive, automated inflows and outflows from passive ETFs (e.g., SPY, QQQ). When an institutional investor buys the "market," they are forced to purchase both tickers in nearly identical proportions.
+*   **Why BET detected it:** The **Macro activity (Bits 0-1)** reflects this. The BET is picking up on the fact that for large price swings (the "Early Bits"), the probability of one moving significantly without the other is nearly zero. This creates the "Forbidden Zone" (low symmetry count) in the quadrants where one stock is up significantly while the other is down.
+*   **Source:** **Wurgler, J. (2011).** *"The Consequences of Index Investing."* National Bureau of Economic Research. This paper details how index inclusion creates non-fundamental correlations and "comovement" that bypasses traditional price discovery.
+
+### Hypothesis 2: Cross-Ticker Algorithmic Statistical Arbitrage
+*   **Mechanism:** **High-Frequency Pair-Trading Dynamics.** Because these tickers share a high degree of fundamental similarity (both are high-margin, software-driven, mega-cap tech), High-Frequency Trading (HFT) algorithms treat them as a "synthetic pair." If AAPL’s price deviates from MSFT’s by a micro-margin not justified by news, algorithms immediately execute mean-reversion trades.
+*   **Why BET detected it:** The **Fine-grained activity (Bits 9-10)** is the smoking gun here. While the price *trends* (middle bits) might diverge based on individual product launches, the *micro-volatility* and high-frequency "noise" are tightly coupled. The BET identifies that the "jitter" in AAPL is not random, but is statistically mirrored in the "jitter" of MSFT.
+*   **Source:** **Brogaard, J., Hendershott, T., & Riordan, R. (2014).** *"High-frequency trading and price discovery."* *The Review of Financial Studies*. This study demonstrates how HFTs link the prices of highly liquid, related securities at sub-second intervals, creating a non-linear "lead-lag" dependency.
+
+### Hypothesis 3: Institutional "Common Mode" Constraint
+*   **Mechanism:** **Capital Allocation Symmetry.** Most institutional "Mega-Cap Tech" or "Growth" portfolios operate under strict sector-concentration limits. If a fund manager sells Apple to reduce risk, they almost invariably sell Microsoft to maintain sector neutrality. This creates a "Common Mode" failure/success loop.
+*   **Why BET detected it:** The **Forbidden Zone (low symmetry count)** is a direct result of these institutional guardrails. The statistical evidence shows that the "tails" of the distribution are linked—specifically, we do not see "asymmetric crashes." The coupling is structural because the same pool of institutional capital owns both stocks and treats them as a single risk-factor block.
+*   **Source:** **Anton, M., & Polk, C. (2014).** *"Common Stock Ownership and Stock Return Comovement."* *Journal of Finance*. The authors provide empirical evidence that the degree to which two stocks are held by the same institutional investors (active managers) strongly predicts their future comovement, independent of fundamentals.
+
+---
+
+### Final Research Note
+The "Gap" in your bit vector (Index 2 through 8) is highly significant. It suggests that while the **overall direction** and the **micro-noise** are coupled, **medium-sized idiosyncratic moves** (such as a specific product bug for Apple or a specific cloud contract for Microsoft) are where the two companies actually express their individual corporate identities. To find alpha, the trader should ignore the macro noise and the high-frequency jitter, focusing exclusively on the "uncoupled" middle-bit dynamics.

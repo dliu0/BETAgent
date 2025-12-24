@@ -1,0 +1,32 @@
+{
+  "ticker_x": "AAPL",
+  "ticker_y": "MSFT",
+  "data_source": "ticker_history_daily.csv",
+  "algorithm_params": {
+    "plot": true,
+    "find_min": false,
+    "max_depth": 8,
+    "p_value_threshold": 0.05
+  },
+  "timestamp": "2025-12-23T14:18:06.544754",
+  "p_value": 8.221418557908488e-09,
+  "min_count": 67,
+  "min_cross": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}
