@@ -85,7 +85,7 @@ BETAgent/
 ├── src/
 │   ├── __init__.py                  # Package exports
 │   ├── BETagent/
-│   │   ├── ai_agent.py                  # AI invoker & analysis logic
+│   │   ├── ai_agent.py              # AI invoker & analysis logic
 │   │   ├── gettickerhistory.py      # Data fetching (yfinance wrapper)
 │   │   ├── run_analysis_pipeline.py # BET algorithm & plotting
 │   │   ├── bet.py                   # Core BET math
